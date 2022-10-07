@@ -8,7 +8,7 @@ function Login() {
     // const clientID = "e9d1a1b733634ce6a9ddeca84e241aca";
     // old
     const clientID = "7ee04dfe5db747d996344df85fe9f0fb";
-    const redirectURL = "http://localhost:3000/";
+    const redirectURL = "https://spotify-clone-abhikyi.netlify.app/";
     const apiURL = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",
