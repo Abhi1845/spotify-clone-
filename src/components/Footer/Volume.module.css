@@ -1,0 +1,12 @@
+.volume-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.volume-bar {
+  cursor: pointer;
+  height: 0.5rem;
+  width: 15rem;
+  border-radius: 2rem;
+}

@@ -1,0 +1,20 @@
+.current-track-container {
+}
+
+.track {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.track-info h4 {
+  color: #fff;
+}
+.track-info h6 {
+  color: #b3b3b3;
+}
