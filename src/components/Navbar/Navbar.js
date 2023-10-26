@@ -16,10 +16,10 @@ function Navbar({ navBackground }) {
         <input type="text" placeholder="What do you want to listen to?" />
       </div>
       <div className={styles["avatar"]}>
-        <a href="#">
-          <CgProfile />
-          <span>{userInfo?.userName}</span>
-        </a>
+        {/* <a href="#"> */}
+        <CgProfile />
+        <span>{userInfo?.userName}</span>
+        {/* </a> */}
       </div>
     </div>
   );

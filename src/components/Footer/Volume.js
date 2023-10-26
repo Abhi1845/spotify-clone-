@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useStateProvider } from "../../utils/StateProvider";
 import styles from "./Volume.module.css";
 import axios from "axios";

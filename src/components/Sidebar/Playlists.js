@@ -5,8 +5,7 @@ import { useStateProvider } from "../../utils/StateProvider";
 import styles from "./Playlists.module.css";
 
 function Playlists() {
-  const [{ token, playlists, selectedPlaylistID }, dispatch] =
-    useStateProvider();
+  const [{ token, playlists }, dispatch] = useStateProvider();
   useEffect(() => {
     const getPlaylistData = async () => {
       const response = await axios.get(
