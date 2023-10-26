@@ -14,7 +14,12 @@ function App() {
       dispatch({ type: reducerCases.SET_TOKEN, token });
     }
   }, [token, dispatch]);
-  return <div>{token ? <Spotify /> : <Login />}</div>;
+  return (
+    <div>
+      <h1>{process.env.REACT_APP_TEST}</h1>
+      {token ? <Spotify /> : <Login />}
+    </div>
+  );
 }
 
 export default App;
